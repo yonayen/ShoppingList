@@ -69,7 +69,12 @@ span {
 	background-image: linear-gradient(transparent 97%, gray 100%);
 }
 
-
+input[type="checkbox"]{
+  position: relative;
+  top: 14px;
+  right: 12px;
+	float: right;
+}
 
 
 
