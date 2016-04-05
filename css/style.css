@@ -88,6 +88,10 @@ input[type="checkbox"]:checked + label{
 	color: rgba(0,0,0,.7);
 }
 
+.list li:nth-child(odd){
+	background: rgba(0,0,50,.1);
+}
+
 
 
 
