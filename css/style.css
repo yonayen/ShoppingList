@@ -76,6 +76,14 @@ input[type="checkbox"]{
 	float: right;
 }
 
+/* --- Styling for "CHECKED OFF" items --- */
+
+input[type="checkbox"]:checked + label{
+	text-decoration: line-through;
+	color: rgba(0,0,0,.3);
+}
+
+
 
 
 
