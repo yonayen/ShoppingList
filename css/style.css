@@ -97,7 +97,13 @@ input[type="checkbox"]:checked + label{
 	width: 100%;
 }
 
-
+label{
+  padding: 10px;
+	cursor: pointer;
+	float: left;
+	width: 95%;
+	transition: all .3s ease;
+}
 
 
 
