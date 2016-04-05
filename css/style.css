@@ -92,6 +92,11 @@ input[type="checkbox"]:checked + label{
 	background: rgba(0,0,50,.1);
 }
 
+.list li{
+	float: left;
+	width: 100%;
+}
+
 
 
 
