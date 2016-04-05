@@ -83,7 +83,10 @@ input[type="checkbox"]:checked + label{
 	color: rgba(0,0,0,.3);
 }
 
-
+.list{
+	list-style: none;
+	color: rgba(0,0,0,.7);
+}
 
 
 
