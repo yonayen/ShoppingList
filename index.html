@@ -14,17 +14,17 @@
 		<div class="header"><span><h2>Ultimate Shopping List</h2></span></div>
 
 		<form>
-		  <label>
+		  <label id="label">
 		    Task Name:
-			    <input type="text" placeholder="Pick up milk">
+			    <input id="new-task-input" type="text" placeholder="Pick up milk">
 		  </label>
-		  <button type="button">
+		  <button type="button" id="add-task-button">
 		    Add Task
 		  </button>
 		</form>
 
 		<div class="wrap-list">
-			<ol class="list">
+			<ol class="list" id="todolist-container"> 
 
 				<li><input type="checkbox" id="check-1" checked="checked"><label for="check-1">Fish for Lunch</label></li>
 
