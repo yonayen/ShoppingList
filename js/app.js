@@ -22,7 +22,8 @@ $(document).ready(function(){
  */
 function addNewRow(){	
 	var numRows = $('#todolist-container').length;
-	$('#todolist-container').append('<li><input type="text" id="title-'+numRows+'" /></li><li><input type="text" id="description-'+numRows+'" /></li></ol>');
+	// $('#todolist-container').append('<li><input type="text" id="title-'+numRows+'" /></li><li><input type="text" id="description-'+numRows+'" /></li></ol>');
+	$('#todolist-container').append('<li><input type="checkbox" id="check-2"><label for="check-2">'+$('#new-task-input').val()+'</label></li>');
 }
 
 /**

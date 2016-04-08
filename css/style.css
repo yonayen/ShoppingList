@@ -80,11 +80,12 @@ span {
 
 .wrap-list{
 	margin-top: 11px;
-	height: 85%;
+	height: 81%;
+	overflow: auto;
 	padding: 20px 0px 0px 0px;
-	box-shadow: inset 0 0px 5px black;
+	/*box-shadow: inset 0 0px 5px black;*/
 	border-radius: 0 0 10px 10px;
-	background-image: linear-gradient(transparent 97%, gray 100%);
+	/*background-image: linear-gradient(transparent 97%, gray 100%);*/
 }
 
 input[type="checkbox"]{
