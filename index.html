@@ -10,33 +10,22 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 <body>
+
 	<div class="wrap">
 		<div class="header"><span><h2>Ultimate Shopping List</h2></span></div>
 
-		<form>
-		  <label id="label">
-		    Task Name:
-			    <input id="new-task-input" type="text" placeholder="Pick up milk">
-		  </label>
-		  <button type="button" id="add-task-button">
-		    Add Task
-		  </button>
-		</form>
+		<div class="container">
+			<p>
+				<label for="new-task">Add Item</label><input id="new-task" type="text"><button id="add">Add</button>
+			</p>
 
-		<div class="wrap-list">
-			<ol class="list" id="todolist-container"> 
+			<h3>Todo</h3>
+			<ul id="incomplete-tasks">
+			</ul>
 
-				<li><input type="checkbox" id="check-1" checked="checked"><label for="check-1">Fish for Lunch</label></li>
-
-				<li><input type="checkbox" id="check-2"><label for="check-2">Apples for Snack</label></li>
-
-				<li><input type="checkbox" id="check-3"><label for="check-3">Bread for Breakfast</label></li>
-
-				<li><input type="checkbox" id="check-4"><label for="check-4">Coffee for Commute</label></li>
-
-				<li><input type="checkbox" id="check-5" checked="checked"><label for="check-5">Crackers for snack</label></li>
-
-			</ol>
+			<h3>Completed</h3>
+			<ul id="completed-tasks">
+			</ul>
 		</div>
 	</div>
 
